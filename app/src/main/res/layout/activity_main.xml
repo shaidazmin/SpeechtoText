@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:background="#ffff"
+        android:id="@+id/TextView"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="20sp"
+        android:text="Speek"
+        android:background="#ffff"
+        android:textSize="25dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
